@@ -5,7 +5,7 @@ Automated environmental acclimatization of post-hatch livestock designed as a na
 **`Dynamic Sensor-to-Relay Mapping`** and **`Time-Series Climate Phasing`** are two different engineering problems addressed in this Brooder application, as compared to my last Incubator project on Static Environmental Maintenance & Multi-batch Tracking.
 
 ## 📱 Interface Showcase
-(https://github.com/user-attachments/assets/eb20344c-48ac-4822-8cb3-bc70e4de2b76)
+![UI Showcase](https://github.com/user-attachments/assets/eb20344c-48ac-4822-8cb3-bc70e4de2b76)
 
 ## 🎯 The Problem & Purpose
 Thermal shock is fatal and occurs when livestock is first removed from the hatching room and placed at ambient room temperature. They need a brooder setting with a gradual decrease in temperature over a period of weeks. Moreover, industrial brooders are so many different sizes that zoning, or multiple heaters and sensors placed in various corners of the brooder is very complex.
