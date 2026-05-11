@@ -2,7 +2,7 @@
 
 Automated environmental acclimatization of post-hatch livestock designed as a native application for android smartphones. 
 
-Dynamic Sensor-to-Relay Mapping and Time-Series Climate Phasing are two different engineering problems addressed in this Brooder application, as compared to my last Incubator project on Static Environmental Maintenance & Multi-batch Tracking.
+**Dynamic Sensor-to-Relay Mapping** and **Time-Series Climate Phasing** are two different engineering problems addressed in this Brooder application, as compared to my last Incubator project on Static Environmental Maintenance & Multi-batch Tracking.
 
 ## 📱 Interface Showcase
 Learn how to configure the Dashboard, Temperature Phase and Hardware Configuration screens side-by-side.
