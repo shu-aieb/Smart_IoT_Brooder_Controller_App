@@ -1,4 +1,4 @@
-# Smart Brooder - IoT Climate Controller
+# Smart Brooder App - IoT Climate Controller
 
 Automated environmental acclimatization of post-hatch livestock designed as a native application for android smartphones. 
 
@@ -53,11 +53,12 @@ Re-used and modified the strong communication pipeline developed for the Incubat
 ### 4. Global Hardware Utilities
 * **Remote USSD Execution**: Users can use the app to ping the hardware's SIM card and check the balance of the carrier or buy data packages to keep IoT connectivity.
 
-Smart Warranty Sync: Reads the encrypted, first-boot time stamp from the hardware to show a tamper-resistant, digital warranty expiration screen.
+* **Smart Warranty Sync:** Reads the encrypted, first-boot time stamp from the hardware to show a tamper-resistant, digital warranty expiration screen.
 
-Access Control: Multi-tiers, owner gives out different revocable PINs for 6 operators.
+* **Access Control:** Multi-tiers, owner gives out different revocable PINs for 6 operators.
+
 ## 🐛 Edge Cases Handled
 
-4 Sensor: If one sensor fails, or the sensor reports impossible sensor data (e.g., -99°C), the app will indicate a Sensor Fault Error (Critical Zone), the UI will indicate the specific hardware fault, and the aggregated data will continue to be displayed from the remaining sensors.
+* **4 Sensor:** If one sensor fails, or the sensor reports impossible sensor data (e.g., -99°C), the app will indicate a Sensor Fault Error (Critical Zone), the UI will indicate the specific hardware fault, and the aggregated data will continue to be displayed from the remaining sensors.
 
 The logic for the day-counter is such that it considers the hardware's internal RTC (Real Time Clock) as the true source of truth to avoid the app and the hardware from disagreeing about the start and end of the “Day 3” to “Day 4” transition.
